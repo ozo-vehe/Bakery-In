@@ -1,0 +1,252 @@
+.lg-screen,
+nav button,
+ #about-us-sec-container #button,
+ #pages,
+ ol,
+ #nav-menu ul li:nth-child(4)
+{
+	display: none; 
+}
+/***************************************************/
+
+
+
+/*					Loader Section						*/
+
+#loader { transform: scale(1.5); }
+
+/******************************************/
+
+
+
+/*							Fonts							*/
+
+/*
+	colors used
+	#373737; --- black
+	#00C9FF; --- blue
+	#F1F1F0; --- white
+	#FF003A; --- red
+
+*/
+/***************************************************/
+
+
+
+/*						Icons Section						*/
+
+#header-dots .fa-circle { font-size: 60%; }
+.fa-window-close::before { font-size: 120%; }
+
+.fa-dot-circle,
+.fa-clock
+{
+	font-size: 70%;
+	color: #FF003A;
+}
+/***************************************************/
+
+
+/*************	General Section	***********/
+
+.section-home-text { transform: scale(1.5); }
+
+/*				Navigation Section					*/
+
+#nav-text { margin-left: 80px; }
+#nav-text h1 { font-size: 35px; }
+#nav-menu ul { margin: 0px 20px 0px 0px; }
+#nav-menu ul li:hover > a { color: #f1f1f0; }
+
+#nav-menu {
+	height: auto; 
+	overflow: none;
+	background: none;
+	position: relative;
+	right: 10px; 
+	top: 0px;
+}
+#nav-menu ul li {
+	display: inline-block; 
+	padding: 10px 10px;
+}
+#nav-menu ul li:hover {
+	border-left: none; 
+	border-radius: 2px; 
+	background-color: #FF003A;
+}
+#nav-menu ul li a {
+	padding: 5px;
+	font-size: 16px;
+}
+
+/***************************************************/
+
+
+
+
+/*					Header Section					*/
+
+.header-content {
+	color: #F1F1F0;
+	width: 400px; 
+	padding: 20px 0px; 
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+}
+#header-text { text-align: center; }
+#header-text p { font-size: 14px; }
+/***************************************************/
+
+
+
+
+/*					About Section						*/
+
+#about-us-text h3 { font-size: 15px; }
+#about-us-text p { font-size: 12px; }
+#about-text h2 { text-align: center; }
+#about-us-sec-container { padding-bottom: 20px; }
+.about-us-sec-contents:last-child .first-content { order: 2; }
+.about-us-sec-contents:last-child .second-content { order: 1; }
+
+#pages-btn {
+	display: block;
+	text-transform: capitalize; 
+	background-color: #F1F1F0;
+	outline: none; 
+	border: none; 
+	padding: 10px 20px;  
+	font-size: 14px; 
+	border-radius: 2px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	transition: all .1s linear;
+}
+
+#pages-btn a {
+	color: #373737;
+	text-decoration: none;
+}
+#pages-btn:hover {
+	background-color: #E3E3E3;
+	transform: scale(1.04);
+}
+#pages-btn:active {
+	transform: scale(1.02);
+}
+#pages-btn:hover a {
+	color: #000;
+}
+
+#about-text p {
+	padding: 0px 20px; 
+	font-size: 12px; 
+}
+.about-us-sec-contents:last-child {
+	display: flex; 
+	flex-direction: column; 
+}
+.first-content p {
+	font-size: 12px;
+	padding-right: 20px;
+	box-sizing: border-box; 
+}
+.cakes p {
+	font-size: 10px;
+	padding-right: 10px;
+	box-sizing: border-box; 
+}
+/***************************************************/
+
+
+
+
+/*					Gallery Section					*/
+
+.image-text h2 { font-size: 18px; }
+.image-text p { font-size: 12px; }
+#gallery > #pages-btn { background-color: #373737; }
+#gallery > #pages-btn a { color: #F1F1F0; }
+#gallery > #pages-btn:hover { background-color: #000; }
+#gallery > #pages-btn:hover > a { color: #fff; }
+/***************************************************/
+
+
+
+
+/*					Staffs Section						*/
+
+/***************************************************/
+
+
+
+
+/*			Customer remark Section				*/
+
+#customer-review { height: 230px; }
+.customers p {
+	padding: 0px 100px; 
+	box-sizing: border-box;
+}
+/***************************************************/
+
+
+
+
+/*				Notification Section					*/
+
+#notification input {
+	width: 350px; 
+	border-radius: 3px; 
+}
+#notification i {
+	width: 30px; 
+	border-radius: 3px; 
+}
+#alert { font-size: 18px; }
+/**********************************************/
+
+
+
+
+
+/*					Footer Section						*/
+
+.footer-content { width: 200px; }
+.footer-content h2 { font-size: 18px; ;}
+.footer-content table { font-size: 12px; }
+.footer-content td { padding: 3px 5px; }
+.footer-content ul { font-size: 12px; }
+#insta-post img { width: 50px; }
+footer > p { font-size: 16px; }
+/*****************************************************/
+
+
+
+
+/************ Contact Section **************/
+
+#message-box { margin: 100px auto 50px auto; }
+
+.input-style {
+	height: 30px; 
+	width: 300px; 
+}
+#submit-btn {
+	padding: 25px 50px; 
+	font-size: 20px; 
+}
+/*                      pop up message                   */
+#pop-up h1 { font-size: 40px; }
+
+#pop-up {
+	width: 60%;
+	padding: 40px; 
+}
+#pop-up p {
+	line-height: 1.5;
+	font-size: 20px; 
+}
+/*****************************************************/
